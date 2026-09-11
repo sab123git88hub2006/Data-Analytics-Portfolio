@@ -1,3 +1,24 @@
+Data Visualisation ans Story-Telling 
+Project Overview
+An end-to-end data visualization project using Excel, Power BI, and PowerPoint to analyze trends and present insights.
+
+Key Features
+
+Data Prep: Cleaned data, structured transformations, and lookup tables in Excel.
+Interactive Dashboard: Dynamic filtering, category breakdowns, and trend charts in Power BI.
+
+Visual Breakdown:
+
+Bar Chart: Segment performance and categorical comparisons.
+Line Chart: Metric movements and performance trends over time.
+Slide Deck: Visual narrative translating data into actionable findings in PowerPoint.
+
+Repository Contents
+
+TASK 4- VISUALIZATIONS.xlsx: Raw dataset and cleaned analysis file.
+TASK 4- VISUALIZATIONS.pptx: Final presentation slide deck with visuals created in Power BI.
+
+===========================================================================================================
 Simple Sales Dashboard
 1. Project Overview
 An interactive sales performance dashboard designed to analyze key metrics across products, regions, and monthly 
