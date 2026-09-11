@@ -19,7 +19,7 @@
 - Final presentation slide deck with visuals created in Power BI.
 
 ==================================================================================
-- Simple Sales Dashboard
+- Simple Sales Dashboard - TASK 3
 1. Project Overview
 An interactive sales performance dashboard designed to analyze key metrics across products, regions, and monthly 
 timeframes.
