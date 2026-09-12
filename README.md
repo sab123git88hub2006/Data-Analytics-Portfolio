@@ -1,3 +1,26 @@
+Excel Data Analysis Report - TASK 5
+
+- Project Overview
+An in-depth Excel data analysis model designed to calculate key financial metrics, process returns, and structure pivot table summaries across products, regions, and sales trends.
+
+- Key Features
+Dynamic Metrics: Instant calculation of Total Revenue, Total Order Volume, and Average Consumer Order Value using Excel formulas.
+Advanced Querying: Filtered logic for high-value regional orders and categorical average profits.
+
+- Structured Summaries:
+Pivot Table: Sales distribution by Product Category.
+             Regional sales comparison and percentage contributions.
+             Monthly sales trends and seasonal performance.
+             Top sub-category profitability tracking.
+
+- Repository Contents
+TASK 5 .xlsx: Complete Excel workbook containing raw order data, calculated working sheets, returns tracking, and summary pivot tables.
+
+- How to View
+Open the file in Microsoft Excel or any standard spreadsheet application to inspect the formulas, working data, and summary tables.
+---------------------------------------------------------------------------------------------------------
+
+
 1. Data Visualisation and Story-Telling - TASK 4
 - Project Overview
 - An end-to-end data visualization project using Excel, Power BI, and PowerPoint to analyze trends and present insights.
