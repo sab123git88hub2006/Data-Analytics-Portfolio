@@ -1,3 +1,41 @@
+Excel Formulas and Functions - TASK 6
+1. Project Overview
+- An end-to-end Excel analysis module utilizing lookup, logical, mathematical, and text functions to clean, extract, and aggregate data from the Superstore dataset.
+
+2. Key Features
+- Advanced Lookups: Dynamic product retrieval and missing ID handling using lookup methods.
+- Conditional Logic Rules: Order tiering and shipping priority assignment built using multi-level logic rules.
+- Multi-Criteria Aggregation: Segmented revenue totals and conditional order counts based on dynamic criteria filters.
+- Text Parsing & Cleaning: String extraction, location merging, extra space removal, and case standardization.
+
+3. Functional Breakdown
+- LOOKUPS
+- VLOOKUP (Fetch Product Name using Product ID): Searches catalog columns to return exact matching product titles.
+- XLOOKUP (Fetch Product Name / handling missing IDs): Performs bidirectional product lookups with built-in missing value handling.
+- LOGICAL FUNCTIONS
+- High/Medium/Low Sales Classifier: Groups transaction sales into custom value tiers based on revenue thresholds.
+- Shipping Priority & Handling Fee Rules: Assigns fulfillment priority levels based on shipping class and item quantities.
+- MATH & AGGREGATION
+- Total Sales in Technology in the South Region: Aggregates technology category sales specifically within the South region.
+- Overall Count of orders with Sales > $500 in the West Region: Filters and counts high-value transactions in the West region.
+- TEXT FUNCTIONS
+- Extracting Category Prefix: Extracts starting department characters from Product IDs.
+- Isolating Sub-Category Code: Isolates sub-category identifiers from middle string positions.
+- Extracting Product Sequence Number: Retrieves trailing unique sequence digits.
+- Combining City and State into Full Location: Joins city and state attributes with proper delimiter formatting.
+- Cleaning Unwanted Spaces in Customer Names: Strips leading, trailing, and irregular middle spaces from customer names.
+- Standardizing Text to Uppercase: Converts product descriptions into standard uppercase text format.
+
+4. Repository Contents
+- Primary Excel workbook containing source datasets (Original data - Orders, Original Data - Returns), the functional calculations tab (TASK 6 SUBMISSION), and the conceptual guide (NOTES).
+
+6. How to View
+- Download TASK 6.xlsx from this repository.
+- Open the workbook in Microsoft Excel or Google Sheets.
+- Navigate to the TASK 6 SUBMISSION sheet to view calculated outputs.
+- Review the NOTES sheet for function guidelines, best practices, and key advantages.
+
+-------------------------------------------------------------------------------------------
 Excel Data Analysis Report - TASK 5
 
 - Project Overview
