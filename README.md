@@ -1,5 +1,7 @@
  Data Visualization & Storytelling - TASK 7
+ 
 ​ 1. Project Overview
+
 ​- An end-to-end data visualization and storytelling module utilizing Google Sheets to build interactive,
 labeled visual chart models from the World Happiness Report dataset.
 
