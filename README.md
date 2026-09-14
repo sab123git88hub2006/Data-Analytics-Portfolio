@@ -6,16 +6,19 @@
 labeled visual chart models from the World Happiness Report dataset.
 
 ​2. Key Features
+
 ​- Visual Structure Selection: Strategic chart selection matching core analytical query types (Composition, Comparison, and Trend/Relationship).
 ​- Clean Composition Limits: Grouped low-frequency categories into an "Others" slice to respect the 5-slice visual rule.
 ​- Sorted Categorical Rankings: Descending horizontal bar charts to maintain clean text readability for long geographic labels.
 ​- Continuous Trend Modeling: Pre-sorted X-axis indexing to convert raw scatter points into clear continuous trendlines.
 
 ​3. COMPOSITION ANALYSIS (PIE CHART)
+
 ​- Regional Happiness Share: Aggregates global cumulative happiness scores into a top-4 regional breakdown plus consolidated remaining regions.
 ​- Slice Optimization: Restricts total slices to under 5 for visual clarity and percentage readability.
 
 ​4. CATEGORICAL COMPARISON (HORIZONTAL BAR CHART)
+
 ​- Regional Average Rankings: Compares average happiness scores across geographic regions in descending order.
 ​- Label Readability: Uses horizontal orientation and explicit data labels to eliminate text overlap on region titles.
 ​- TREND & RELATIONSHIP MODELING (SORTED LINE CHART)
@@ -23,9 +26,11 @@ labeled visual chart models from the World Happiness Report dataset.
 ​- Trendline Integration: Integrates a linear trendline on pre-sorted data to prove continuous upward scaling from lower to higher GDP brackets.
 
 ​5. Repository Contents
+
 ​- Primary Google Sheets workbook containing source dataset (2015.csv), functional calculation tabs (Pivot Tables), and visual dashboards.
 
 ​6. How to View
+
 ​- Open the provided Google Sheets link or download TASK 7.xlsx from this repository.
 ​- Navigate to the Pivot Tables sheet to view data aggregations.
 ​- Review the TASK 7 SUBMISSION tab for labeled charts, one-line takeaways, and the executive data narrative.
