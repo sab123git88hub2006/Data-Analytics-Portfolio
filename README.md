@@ -1,3 +1,37 @@
+Dynamic Sales Tracker - TASK 8
+
+1. Project Overview
+- A multi-tab automated sales tracking system in Google Sheets engineered to process, validate, and summarize 5,000 raw transaction records into daily, weekly, and monthly performance totals.
+
+2. Key Features
+
+- Dynamic Summary Rollups: Automated tracking of Daily, Weekly, and Monthly revenue using SUMIF and SUMIFS formulas.
+
+- Data Validation & Error Prevention: Restrictive cell rules for dates, dynamic product lookup dropdowns, and protected summary formulas.
+
+- Dynamic Pricing & Revenue Calculation: Multi-condition nested formulas using VLOOKUP to auto-calculate gross revenue net of variable discounts.
+
+- Modular Workbook Architecture: Clean relational tab structure separating core transactional data from master dimension entities.
+
+3. Workbook Architecture & File Contents
+
+- TASK 8- SALES TRACKER workbook with automated rollups.
+
+- Summary Tab: High-level automated rollup cards and date-filtered revenue metrics.
+
+- Transactions Tab: Core transactional dataset featuring input validation and dynamic price lookup.
+
+- Reference Tabs: Products, Customers, and Stores lookup tables.
+
+4. How to View
+
+- Open the workbook in Google Sheets or Microsoft Excel.
+
+- Navigate to the Transactions tab to interact with dropdown validation rules or view formula logic.
+
+- Switch to the Summary tab to inspect calculated aggregate metrics and revenue breakdowns.
+
+-----------------------------------------------------------------------------------------------
  Data Visualization & Storytelling - TASK 7
  
 ​ 1. Project Overview
