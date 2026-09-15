@@ -1,7 +1,7 @@
 Dynamic Sales Tracker - TASK 8
 
 1. Project Overview
-- A multi-tab automated sales tracking system in Google Sheets engineered to process, validate, and summarize 5,000 raw transaction records into daily, weekly, and monthly performance totals.
+- A multi-tab automated sales tracking system in Google Sheets created to process, validate, and summarize 5,000 raw transaction records into daily, weekly, and monthly performance totals.
 
 2. Key Features
 
