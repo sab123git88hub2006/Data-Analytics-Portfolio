@@ -1,3 +1,30 @@
+Exploratory Data Analysis & Summary Statistics - TASK 9
+1. Project Overview
+- An end-to-end Python exploratory data analysis script utilizing Pandas to extract, compute, and format key descriptive statistical measures from the Titanic dataset.
+
+2. Key Features
+- Targeted Metric Selection: Focuses on core numerical variables (Age, Fare, SibSp) to analyze distinct distribution patterns across continuous, skewed, and discrete counts.
+- Individual Parameter Extraction: Calculates measures of central tendency (mean, median, mode) and dispersion (standard deviation, interquartile ranges) independently.
+- Structured Matrix Assembly: Combines distinct statistical series into a clean, unified DataFrame output for structured evaluation.
+- Precision Formatting: Formats numeric outputs to two decimal places to ensure visual clarity and immediate table scannability.
+
+3. CENTRAL TENDENCY ANALYSIS
+- Averaging & Middle Values: Computes mean and median values across selected attributes to evaluate baseline distribution centerpoints.
+- Skewness Detection: Contrasts mean against median values (notably in Fare) to identify right-skewed distributions caused by high-value outliers.
+
+4. DISPERSION & SPREAD MODELING
+- Variability Metrics: Calculates standard deviations to measure variance and distribution spread around average values.
+- Quantile Segmentation: Derives 25th and 75th percentiles to define the Interquartile Range (IQR) for boundary analysis.
+
+5. Repository Contents
+- Primary Python script (task_9_analysis.py) containing data loading logic, metric computations, table aggregation, and output formatting.
+- Reference dataset (Titanic-Dataset.csv).
+
+6. How to View
+- Download task_9_analysis.py and Titanic-Dataset.csv into the same execution directory.
+- Run python task_9_analysis.py in your terminal or IDE environment.
+- Review the formatted summary output matrix directly in the console output.
+---------------------------------------------------------------------------------------------------
 Dynamic Sales Tracker - TASK 8
 
 1. Project Overview
