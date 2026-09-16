@@ -1,4 +1,4 @@
-Exploratory Data Analysis & Summary Statistics - TASK 9
+ Data Analysis & Summary Statistics - TASK 9
 1. Project Overview
 - An end-to-end Python exploratory data analysis script utilizing Pandas to extract, compute, and format key descriptive statistical measures from the Titanic dataset.
 
