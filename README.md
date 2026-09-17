@@ -1,3 +1,19 @@
+Simple KPI Tracking Sheet - TASK 10
+1. Project Overview
+- An automated, single-tab summary dashboard designed to translate raw transactional order data into real-time operational metrics.
+2. Key Features
+- Dynamic KPI Summary: Instant snapshot of Total Revenue, Total Units Sold, Average Order Value (AOV), and Total Orders.
+- Auto-Updating Calculations: Formulas automatically recalculate as new transaction rows are added.
+- Data Integrity: Standardized currency and numeric formatting with full-column range references.
+3. Repository Contents
+- TASK 10- Dynamic Excel KPI dashboard file.
+- Sample-Superstore transactional dataset used for analysis.
+- Dashboard preview.png: Visual layout preview.
+4. How to View
+- Download the file from this repository.
+- Open in Microsoft Excel or Google Sheets to view or add data to the Raw Data tab.
+ 
+ -------------------------------------------------------------------------------------------------------------------
  Data Analysis & Summary Statistics - TASK 9
 1. Project Overview
 - An end-to-end Python exploratory data analysis script utilizing Pandas to extract, compute, and format key descriptive statistical measures from the Titanic dataset.
