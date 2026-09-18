@@ -10,10 +10,10 @@ Basic Data Sorting & Filtering - TASK 11
 
 ​3. Repository Contents
 ​-  Filtered workbook containing Raw Data and Analysis sheets.  
-​- Answers.pdf: Documented answers to the 5 business queries and interview questions. 
+​- Documented answers to the 5 business queries and interview questions. 
 
 ​4. How to View
-​- Download the .xlsx workbook from this repository.  
+​- Download the workbook from this repository.  
 ​- Open in Excel or Google Sheets to inspect the active filters and worksheet structure.
 
 ----------------------------------------------------------------------------------------------
