@@ -1,3 +1,17 @@
+Basic Data Sorting & Filtering - TASK 11
+​1. Project Overview
+- A foundational data analysis task focused on sorting and filtering structured business datasets to answer key operational questions.  
+​2. Key Features
+​- Data Preservation: Raw dataset kept unchanged in a dedicated sheet.  
+​- Multi-Criteria Filtering: Applied combined logic rules across regions, discounts, and profitability metrics.  
+​- Dynamic Sorting: Single and multi-column alphanumeric and numerical ordering.  
+​3. Repository Contents
+​-  Filtered workbook containing Raw Data and Analysis sheets.  
+​- Answers.pdf: Documented answers to the 5 business queries and interview questions.  
+​4. How to View
+​- Download the .xlsx workbook from this repository.  
+​- Open in Excel or Google Sheets to inspect the active filters and worksheet structure.
+----------------------------------------------------------------------------------------------
 Simple KPI Tracking Sheet - TASK 10
 1. Project Overview
 - An automated, single-tab summary dashboard designed to translate raw transactional order data into real-time operational metrics.
