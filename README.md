@@ -1,3 +1,21 @@
+1. Project Overview
+- A basic missing-data inspection script designed to identify missing values across dataset features and summarize where incomplete data occurs.
+
+2. Key Features
+- Missing Value Summary: Comprehensive analysis displaying missing value counts and percentage proportions across all 12 columns.
+- Inspection & Profiling: Automated detection of null patterns with Pandas display options configured to prevent column truncation (...).
+- Impact Analysis: Evaluation of data completeness to prevent risky operations like ungrounded row deletion.
+
+ 3. Repository Contents
+- Task no. 12.py:
+  Python script utilizing Pandas to process local data files and display complete missing value metrics across all features.
+- Titanic .xlsx.xlsx: Raw dataset used for analysis.
+
+ 4. How to view
+- Download the repository files to your local system.
+- Ensure required libraries are installed (pip install pandas openpyxl).
+- Execute the script via terminal or command prompt: python "Task no. 12.py".
+--------------------------------------------------------------------------------------------------------------------------------------
 Basic Data Sorting & Filtering - TASK 11
 
 ​1. Project Overview
