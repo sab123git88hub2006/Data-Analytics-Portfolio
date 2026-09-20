@@ -19,14 +19,6 @@ Understand duplicate detection across full rows and key columns.
 - Identified 0 exact duplicate rows across all tables[cite: 1].
 - Check Key Columns: Evaluated primary key columns (`CustomerID`, `ProductID`, `StoreID`, `TransactionID`) using Excel's **Conditional Formatting -> Highlight Cells Rules -> Duplicate Values**[cite: 1].
 -  Identified 0 duplicate key values across all tables.
-  
-7. Detailed Breakdown
-| Sheet Name | Total Rows Checked | Full Row Duplicates Found | Key Column Duplicates Found | Status |
-| :--- | :--- | :--- | :--- | :--- |
-| Customers | 200 | 0 | 0 | Clean |
-| Products| 50 | 0 | 0 | Clean |
-| Stores | 5 | 0 | 0 | Clean |
-| Transactions | 5,000 | 0 | 0 | Clean |
 ----------------------------------------------------------------------------------------------
 TASK 12
 1. Project Overview
