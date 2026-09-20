@@ -1,3 +1,47 @@
+TASK 13
+1. Duplicate Record Check - Data Analytics Track
+
+2. Description
+Find duplicate records across all tables in the dataset and document them.
+
+3. Objective
+Understand duplicate detection across full rows and key columns.
+
+4. Tools Used
+- MS Excel
+
+5. Deliverables Summary
+1. `Retail Sales Dataset Sample duplicate_report.csv`: A summary report documenting duplicate detection results across all 4 dataset sheets[cite: 1].
+2. `Retail_Sales_Data_Cleaned_Copy.xlsx`: Verified copy of the dataset containing no duplicate records[cite: 1].
+
+6. Mini Audit Note
+
+7. Duplicate Detection Method & Results
+- Check Full Rows: Evaluated all 4 sheets (`Customers`, `Products`, `Stores`, `Transactions`) using Excel's *Data -> Remove Duplicates feature.
+- Identified 0 exact duplicate rows across all tables[cite: 1].
+- Check Key Columns: Evaluated primary key columns (`CustomerID`, `ProductID`, `StoreID`, `TransactionID`) using Excel's **Conditional Formatting -> Highlight Cells Rules -> Duplicate Values**[cite: 1].
+-  Identified 0 duplicate key values across all tables.
+
+8. Detailed Breakdown
+| Sheet Name | Total Rows Checked | Full Row Duplicates Found | Key Column Duplicates Found | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| Customers | 200 | 0 | 0 | Clean |
+| Products| 50 | 0 | 0 | Clean |
+| Stores | 5 | 0 | 0 | Clean |
+| Transactions | 5,000 | 0 | 0 | Clean |
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------
+TASK 12
 1. Project Overview
 - A basic missing-data inspection script designed to identify missing values across dataset features and summarize where incomplete data occurs.
 
