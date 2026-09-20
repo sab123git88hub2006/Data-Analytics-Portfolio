@@ -11,12 +11,12 @@ Understand duplicate detection across full rows and key columns.
 
 5. Deliverables Summary-
 - `Retail Sales Dataset Sample duplicate_report.csv`: A summary report documenting duplicate detection results across all 4 dataset sheets.
-- `Retail_Sales_Data_Cleaned_Copy.xlsx`: Verified copy of the dataset containing no duplicate records[cite: 1].
+- `Retail_Sales_Data_Cleaned_Copy.xlsx`: Verified copy of the dataset containing no duplicate records.
 
 6. Duplicate Detection Method & Results-
-- Check Full Rows: Evaluated all 4 sheets (`Customers`, `Products`, `Stores`, `Transactions`) using Excel's *Data -> Remove Duplicates feature.
+- Check Full Rows: Evaluated all 4 sheets (`Customers`, `Products`, `Stores`, `Transactions`) using Excel's Data -> Remove Duplicates feature.
 - Identified 0 exact duplicate rows across all tables.
-- Check Key Columns: Evaluated primary key columns (`CustomerID`, `ProductID`, `StoreID`, `TransactionID`) using Excel's **Conditional Formatting -> Highlight Cells Rules -> Duplicate Values**[cite: 1].
+- Check Key Columns: Evaluated primary key columns (`CustomerID`, `ProductID`, `StoreID`, `TransactionID`) using Excel's Conditional Formatting -> Highlight Cells Rules -> Duplicate Values.
 -  Identified 0 duplicate key values across all tables.
 ----------------------------------------------------------------------------------------------
 TASK 12
