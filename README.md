@@ -7,8 +7,7 @@ Find duplicate records across all tables in the dataset and document them.
 3. Objective-
 Understand duplicate detection across full rows and key columns.
 
-4. Tools Used-
-- MS Excel
+4. Tools Used- MS Excel
 
 5. Deliverables Summary-
 1. `Retail Sales Dataset Sample duplicate_report.csv`: A summary report documenting duplicate detection results across all 4 dataset sheets[cite: 1].
