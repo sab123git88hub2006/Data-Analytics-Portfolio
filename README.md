@@ -16,7 +16,7 @@ Understand duplicate detection across full rows and key columns.
 
 6. Duplicate Detection Method & Results-
 - Check Full Rows: Evaluated all 4 sheets (`Customers`, `Products`, `Stores`, `Transactions`) using Excel's *Data -> Remove Duplicates feature.
-- Identified 0 exact duplicate rows across all tables[cite: 1].
+- Identified 0 exact duplicate rows across all tables.
 - Check Key Columns: Evaluated primary key columns (`CustomerID`, `ProductID`, `StoreID`, `TransactionID`) using Excel's **Conditional Formatting -> Highlight Cells Rules -> Duplicate Values**[cite: 1].
 -  Identified 0 duplicate key values across all tables.
 ----------------------------------------------------------------------------------------------
