@@ -10,7 +10,7 @@ Understand duplicate detection across full rows and key columns.
 4. Tools Used- MS Excel
 
 5. Deliverables Summary-
-- `Retail Sales Dataset Sample duplicate_report.csv`: A summary report documenting duplicate detection results across all 4 dataset sheets[cite: 1].
+- `Retail Sales Dataset Sample duplicate_report.csv`: A summary report documenting duplicate detection results across all 4 dataset sheets.
 - `Retail_Sales_Data_Cleaned_Copy.xlsx`: Verified copy of the dataset containing no duplicate records[cite: 1].
 
 6. Duplicate Detection Method & Results-
