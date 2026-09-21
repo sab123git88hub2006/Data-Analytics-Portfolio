@@ -1,16 +1,20 @@
 ​1. Project Overview
-​- A basic sales summary report designed to calculate core performance metrics and synthesize total sales revenue, average transaction size, and overall order volume using Microsoft Excel.  
+​- A basic sales summary report designed to calculate core performance metrics and synthesize total sales revenue, average transaction size, and overall order volume using Microsoft Excel.
+
 ​2. Key Features
 ​- KPI Dashboarding: Built a dedicated SUMMARY SHEET tab displaying primary metrics: Total Sales (14,301,903.15), Average Sales per Transaction (2,860.38), and Total Transactions Count (5,000).  
 ​- Relational Sheet Formulas: Extracted unit pricing from the Products catalog into the Transactions log using VLOOKUP to accurately calculate net revenue after applying quantity and discounts.  
 ​- Manual Data Verification: Conducted status bar auditing and formula validation across 5,000 transaction rows to ensure 100% computational accuracy.  
+
 ​3. Repository Contents
 ​- Summary_Sheet.png: Screenshot showing the completed Excel KPI summary table and formatted numbers.  
-​- Retail_sales_dataset.xlsx: Raw workbook containing Customers, Products, Stores, and Transactions sheets alongside the newly created Summary Sheet.  
+​- Retail_sales_dataset.xlsx: Raw workbook containing Customers, Products, Stores, and Transactions sheets alongside the newly created Summary Sheet. 
+
 ​4. How to view
 ​- Download the retail_sales_dataset.xlsx file to your local computer.  
 ​- Open the file in Microsoft Excel.  
 ​- Navigate to the SUMMARY SHEET tab at the bottom to view the calculated KPIs and formulas
+
 ---------------------------------------------------------------------------------------------------------------------------------
 TASK 13
 1. Duplicate Record Check - Data Analytics Track
