@@ -7,8 +7,7 @@
 3. Repository Contents
 -  Product_Count_Analysis.xls: Complete workbook containing the sheets: Orders, Returns, and People sheets alongside the newly integrated Summary tab.
 4. How to view
-- Download the Sample -
-- Superstore.xlsx file to your local computer.
+- Download the TASK 15 file to your local computer.
 -  Open the file in Microsoft Excel.
 -  Navigate to the Summary tab (or view the top summary table on the main worksheet) to examine the category breakdown, distinct count metrics, and lookup formulas.  
 ----------------------------------------------------------------------------------------------​
