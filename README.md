@@ -1,4 +1,18 @@
-​1. Project Overview
+1. TASK 15 Project Overview-
+- A product count and catalog analysis report designed to analyze product volume across categories, identify catalog distribution, and highlight top-performing     categories using Microsoft Excel.
+2. Key Features - Product Count Analysis:
+- Built a dedicated Summary Table calculating key catalog metrics: Total Category Rows, Unique Product Names, and Unique Product IDs across all categories.
+- Category Volume Identification: Identified Office Supplies as the largest category by volume, accounting for 6,026 product records (60.3% of total inventory listings).
+- Dynamic Excel Formulas: Applied COUNTIF/COUNTIFS for row volume aggregation and modern dynamic array formulas (COUNTA, UNIQUE, FILTER) for distinct catalog counts.
+3. Repository Contents
+-  Product_Count_Analysis.xls: Complete workbook containing the sheets: Orders, Returns, and People sheets alongside the newly integrated Summary tab.
+4. How to view
+- Download the Sample -
+- Superstore.xlsx file to your local computer.
+-  Open the file in Microsoft Excel.
+-  Navigate to the Summary tab (or view the top summary table on the main worksheet) to examine the category breakdown, distinct count metrics, and lookup formulas.  
+----------------------------------------------------------------------------------------------​
+1. TASK 14 Project Overview
 
 ​- A basic sales summary report designed to calculate core performance metrics and synthesize total sales revenue, average transaction size, and overall order volume using Microsoft Excel.
 
