@@ -1,3 +1,25 @@
+1. TASK 16 Project Overview-
+
+- A simple profit analysis report designed to evaluate profitability across product categories, compare total vs. average earnings, and identify margin discrepancies using Microsoft Excel.
+
+2. Key Features - Simple Profit Analysis:
+
+- Profitability Summarization: Constructed a dynamic Pivot Table summarizing Total Sales, Total Profit, and Average Profit across all major product categories.
+- High-Margin Category Identification: Identified Technology as the most profitable category generating $145,454.95 in total profit ($78.71 avg/order), while highlighting Furniture as low-performing ($18,451.27 profit despite $741.9k in sales).
+- Visual Comparison Chart: Integrated a Clustered Column PivotChart to visually demonstrate category performance and comparative profit margins.
+
+3. Repository Contents
+4. 
+- Profit_Analysis_Task16.xlsx: Complete workbook containing the original dataset sheets alongside the integrated Pivot Table summary and chart tab.
+
+4. How to view
+
+- Download the TASK 16 file to your local computer.
+
+- Open the file in Microsoft Excel.
+
+- Navigate to the Profit Summary tab to review the Pivot Table metrics, category breakdowns, and visual chart.
+-----------------------------------------------------------------------------------------------------
 1. TASK 15 Project Overview-
 - A product count and catalog analysis report designed to analyze product volume across categories, identify catalog distribution, and highlight top-performing     categories using Microsoft Excel.
 2. Key Features - Product Count Analysis:
