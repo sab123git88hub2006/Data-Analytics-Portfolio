@@ -9,7 +9,7 @@
 - Visual Comparison Chart: Integrated a Clustered Column PivotChart to visually demonstrate category performance and comparative profit margins.
 
 3. Repository Contents
-4. 
+
 - Profit_Analysis_Task16.xlsx: Complete workbook containing the original dataset sheets alongside the integrated Pivot Table summary and chart tab.
 
 4. How to view
