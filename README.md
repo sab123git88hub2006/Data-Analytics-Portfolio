@@ -1,11 +1,16 @@
 1. TASK 17 Project Overview-
 - A monthly sales trend analysis report to summarize sales figures by month, track chronological performance, evaluate time-series trends, and prevent date formatting errors using Microsoft Excel.
+
 2. Key Features -
-- Monthly Sales Trend Analysis:
+- Monthly Sales Trend Analysis
 - Sales Trend Summarization: Constructed a dynamic Pivot Table summarizing Total Sales aggregated across chronological months.
 -  Date Cleaning & Chronological Sorting: Standardized date formats to prevent string-sorting errors and successfully grouped transactions into sequential monthly periods (Jan through Dec).
-- Visual Trend Chart: Integrated a Line PivotChart with markers to visually illustrate sales trajectory, growth patterns, and seasonal fluctuations over time.   3.Repository Contents -
--  Monthly_Sales_Trend_Task17.xlsx: Complete workbook containing the raw sales dataset alongside the integrated Pivot Table summary and line chart visualization.  4. How to view
+- Visual Trend Chart: Integrated a Line PivotChart with markers to visually illustrate sales trajectory, growth patterns, and seasonal fluctuations over time.
+
+3.Repository Contents -
+-  Monthly_Sales_Trend_Task17.xlsx: Complete workbook containing the raw sales dataset alongside the integrated Pivot Table summary and line chart visualization.
+
+- 4. How to view
 - Download the Monthly_Sales_Trend_Task17.xlsx file to your local computer.
 - Open the file in Microsoft Excel.
 - Navigate to the Monthly Sales Summary tab to review the Pivot Table metrics, date groupings, and time-trend chart.
