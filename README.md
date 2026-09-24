@@ -10,7 +10,7 @@
 3.Repository Contents -
 -  Monthly_Sales_Trend_Task17.xlsx: Complete workbook containing the raw sales dataset alongside the integrated Pivot Table summary and line chart visualization.
 
-- 4. How to view
+4. How to view
 - Download the Monthly_Sales_Trend_Task17.xlsx file to your local computer.
 - Open the file in Microsoft Excel.
 - Navigate to the Monthly Sales Summary tab to review the Pivot Table metrics, date groupings, and time-trend chart.
