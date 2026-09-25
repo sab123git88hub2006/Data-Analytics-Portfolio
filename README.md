@@ -1,3 +1,35 @@
+Task 18: Region Performance Analysis
+
+1. Overview-
+- This repository contains the solution for Task 18 (Region Performance) of the Data Analytics. The goal of this task is to perform regional aggregation, analyze sales vs. profit performance across geographic regions, rank performance, and visualize findings using Power BI.
+
+2. Objectives-
+- Group Superstore sales data by geographical regions.
+- Compare revenue generation (Sales) against actual bottom-line profitability (Profit).
+- Implement DAX measures for totals and dynamic regional ranking.
+- Build interactive Power BI visuals including dynamic summary tables and comparative bar charts.
+
+3. Tools & Datasets-
+- Tool: Microsoft Power BI Desktop.
+- Dataset: Superstore Sales Dataset 
+
+4. Key Deliverables-
+a. Region Summary Matrix Table-
+- Aggregated summary detailing 'Total Sales' and Total Profit' per region.
+- Includes explicit DAX dynamic ranking.
+- Applied conditional formatting to highlight regional profit variations.
+
+b. Region Performance Bar Chart-
+* Clustered Bar Chart visualizing `Sales` vs. `Profit` side-by-side.
+* Sorted descending by total sales for immediate visual ranking.
+* Configured with data labels and custom color palettes for clear reporting.
+
+5. Key DAX Measures-
+1. Total Sales
+Total Sales = SUM(Orders[Sales])
+2. Total Profit
+Total Profit = SUM(Orders[Profit])
+-----------------------------------------------------------------------------------
 1. TASK 17 Project Overview-
 - A monthly sales trend analysis report to summarize sales figures by month, track chronological performance, evaluate time-series trends, and prevent date formatting errors using Microsoft Excel.
 
