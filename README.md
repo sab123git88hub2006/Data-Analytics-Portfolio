@@ -1,3 +1,19 @@
+1. Project Overview- TASK 1
+A basic data cleaning and preprocessing script designed to identify missing values, handle null entries, and prepare raw data for analysis.
+
+3. Key Features-
+- Missing Value Handling: Automated imputation of missing values in Age (mean) and Embarked (mode), and filling missing Cabin entries with 'Unknown'.
+- Data Standardization: Replaces missing data across features without dropping rows indiscriminately.
+- Data Export: Processed output saved automatically as a clean Excel file ready for downstream analysis.
+
+3. Repository Contents-
+- Task no. 1.py: Python script using Pandas to read, clean, and save the dataset.
+- Titanic .xlsx: Raw input dataset used for cleaning.
+  
+4. How to View-
+- Download the repository files to your local system.
+- Execute the script via terminal or command prompt:"Task no. 1.py".
+-----------------------------------------------------------------------------------------------------------------------------
 1. Project Overview
 - A basic missing-data inspection script designed to identify missing values across dataset features and summarize where incomplete data occurs.
 
