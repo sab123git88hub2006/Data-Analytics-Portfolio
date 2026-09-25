@@ -1,5 +1,5 @@
-1. Project Overview- TASK 1
-A basic data cleaning and preprocessing script designed to identify missing values, handle null entries, and prepare raw data for analysis.
+1. Project Overview TASK 1-
+- A basic data cleaning and preprocessing script designed to identify missing values, handle null entries, and prepare raw data for analysis.
 
 3. Key Features-
 - Missing Value Handling: Automated imputation of missing values in Age (mean) and Embarked (mode), and filling missing Cabin entries with 'Unknown'.
