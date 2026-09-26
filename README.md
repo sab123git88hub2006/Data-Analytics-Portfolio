@@ -1,3 +1,29 @@
+-Task 19: Top 10 Products Analysis
+
+1. Overview
+-This repository contains the solution for Task 19 (Top 10 Products) of the Data Analytics track. The goal of this task is to perform product-level aggregation, rank products by revenue generation, analyze ties, and visualize findings using Python.
+
+2. Objectives
+- Group Superstore sales data by Product Name.
+- Aggregate total revenue (Sales) and calculate explicit product rankings.
+- Check for duplicate values (ties) and implement tie-handling mechanisms.
+- Build clear deliverables, including a Top-10 summary table and horizontal bar chart visualization.
+
+3. Tools & Datasets
+- Tools: Python (`pandas`, `matplotlib`)
+- Dataset:`Sample-Superstore.xlsx` (Sheet: `Raw data-Orders`)
+
+4. Key Deliverables
+a. Top-10 Products Summary Table
+- Aggregated table displaying the Top 10 products sorted descending by total sales revenue
+- Explicit ranking generated using Pandas `rank()`.
+- Evaluated for tied sales values across the product catalog
+
+b. Top-10 Products Bar Chart
+- Horizontal Bar Chart visualizing total sales per product.
+- Highest revenue generator placed at the top for immediate visual hierarchy.
+- Custom styling with formatted axis labels and clear title.
+-------------------------------------------------------------------------------------------
 Task 18: Region Performance Analysis
 
 1. Overview-
