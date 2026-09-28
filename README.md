@@ -1,3 +1,19 @@
+1. Project Overview TASK 21-
+- A basic Data Query Language (DQL) analysis script designed to execute targeted SQL queries, apply conditional filtering, and sort transaction metrics on the Northwind dataset.
+  
+2. Key Features-
+- Conditional Data Filtering: Restricts transaction rows using specific thresholds for pricing, quantities, and discount rates.
+- Data Sorting & Limiting: Orders records systematically while limiting outputs to ensure concise, single-screen readable results.
+- Query Flexibility: Performs targeted lookups by specific order IDs, price ranges, and promotional tiers.
+  
+3. Repository Contents-
+- task21_queries.pdf: SQL script containing the executed query set for database analysis.
+- data.csv: Raw input dataset containing order details (order_id, product_id, unit_price, quantity, discount).
+
+4. How to View-
+- Download the repository files to your local system.
+- Execute the script via terminal or command prompt: "task21_queries.sql".
+---------------------------------------------------------------------------------------------------------
 1. Project Overview TASK 1-
 - A basic data cleaning and preprocessing script designed to identify missing values, handle null entries, and prepare raw data for analysis.
 
