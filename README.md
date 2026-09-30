@@ -1,3 +1,20 @@
+1. Project Overview TASK 23-
+
+- An advanced SQL Data Query Language (DQL) analysis script designed to execute window functions, perform row-level ranking, evaluate lead/lag trend metrics, and calculate rolling window aggregations on the Northwind dataset (mytable).
+  
+2. Key Features-Row-Level Ranking:
+- Assigns deterministic sequence values and dense rank tiers across line items using ROW_NUMBER(), RANK(), and DENSE_RANK().
+- Positional & Trend Navigation: Computes consecutive line-item price variations and order-over-order revenue metrics using LAG() and LEAD().
+-  Cumulative & Moving Aggregations: Calculates running order totals and 3-item moving price averages using custom frame specifications (ROWS BETWEEN).
+  
+3. Repository Contents-task23_queries.pdf:
+- SQL script containing the 12 executed window function query set for database analysis.
+- data.csv: Raw input dataset (mytable) containing order details (order_id, product_id, unit_price, quantity, discount).
+  
+4. How to View-
+- Download the repository files to your local system.
+- Execute the script via terminal or command prompt
+----------------------------------------------------------------------------------------------------
 1. Project Overview TASK 21-
 - A basic Data Query Language (DQL) analysis script designed to execute targeted SQL queries, apply conditional filtering, and sort transaction metrics on the Northwind dataset.
   
