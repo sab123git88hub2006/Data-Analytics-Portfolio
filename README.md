@@ -1,3 +1,21 @@
+1. Project Overview TASK 24
+- An automated Python data audit and quality validation script designed to evaluate multi-sheet relational databases, execute custom business validation rules, quantify data hygiene anomalies, and export cleaned dataset samples for downstream analytics.
+  
+2. Key Features
+- Multi-Sheet Inspection: Loads and scans multiple relational entity tables (Customers, Products, Stores, and Transactions) using Pandas to perform global null checks and full-row duplicate detection.
+- Relational & Temporal Validation: Enforces primary key uniqueness and cross-table date sequence logic (Transaction Date >= Customer Join Date) to detect temporal inconsistencies.
+-  Domain & Range Verification: Validates product pricing logic and cost bounds (UnitPrice > 0, CostPrice > 0, and UnitPrice >= CostPrice) to ensure financial reporting accuracy.
+-  Dynamic Reporting & Issue Logging: Calculates audit metrics live from the dataset to output an executive summary report, a structured issue log, and a clean 100-row sample directly to the IPython console.
+
+3. Repository Contents- data_quality_audit.py: Automated Python audit script containing the multi-sheet validation engine, metric calculators, and terminal reporting logic.
+- Retail_sales_dataset.xlsx: Raw input Excel workbook containing four relational sheets (Customers, Products, Stores, Transactions).
+- issue_log.csv: Generated issue log detailing affected dataset tables, rule descriptions, error severity levels, record counts, and impacted sample IDs.       cleaned_sample.csv: Filtered 100-row transaction dataset free from temporal logic violations, ready for downstream modeling.
+  
+4. How to View
+- Download the repository files (data_quality_audit.py and retail_sales_dataset.xlsx) to your local project folder.
+- Open data_quality_audit.py in your preferred Python IDE (Spyder, VS Code, or Jupyter).
+- Execute the script via terminal or press F5 in Spyder to display the dynamic Audit Report, Issue Log, and Cleaned Sample outputs.
+--------------------------------------------------------------------------------------------------
 1. Project Overview TASK 23-
 
 - An advanced SQL Data Query Language (DQL) analysis script designed to execute window functions, perform row-level ranking, evaluate lead/lag trend metrics, and calculate rolling window aggregations on the Northwind dataset (mytable).
