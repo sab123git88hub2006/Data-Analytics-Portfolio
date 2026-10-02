@@ -1,33 +1,23 @@
-1. Cohort Retention Analysis
-- A complete, end-to-end Python implementation for performing Monthly Customer Cohort & Retention Analysis on e-commerce transaction data.
-- Built without Seaborn, utilizing native Pandas and Matplotlib for execution and visualization in Spyder IDE.
+Project Overview: Customer Cohort Retention Analysis
+- An automated Python data analysis and visualization script designed to evaluate e-commerce customer transaction history, perform monthly cohort retention grouping, quantify repeat purchasing loyalty over time.
 
-2. Repository Structure
-Plaintext├── online_retail_II.csv        
-Dataset (Online Retail transactions)
-├── cohort_analysis.py          # Primary Python script (Data Cleaning + Retention Logic + Matplotlib Visuals)
-├── README.md                   # Project documentation & execution steps
-└── requirements.txt            # Python dependencies (pandas, matplotlib, numpy)
-
-3. Getting Started Prerequisites & Installation
-- Ensure you have Python 3.8+ installed along with the required libraries: Bashpip install pandas matplotlib numpy
-- Running in Spyder IDEClone or download this repository. Place online_retail_II.csv in your Spyder working directory. Open cohort_analysis.py in Spyder and press F5 (or click Run).
+1. Project Overview
+- An automated Python data analysis and visualization script designed to evaluate e-commerce customer transaction history, perform monthly cohort retention grouping, quantify repeat purchasing loyalty over time, and output an annotated heatmap.
   
-4. Script Execution WorkflowData Ingestion & Cleaning:
-Reads raw transactions from online_retail_II.csv.Filters out records with missing Customer ID, non-positive quantities/prices, and cancelled invoices (Invoice starting with 'C').Cohort Assignment:Determines each customer's initial sign-up month (CohortMonth).
-Computes monthly offsets relative to sign-up (CohortIndex: $M+0, M+1, M+2 ...).
+2. Key Features
+- Data Cleaning & Filtering: Cleans the raw transaction dataset by removing missing Customer IDs, filtering out non-positive unit prices and quantities, and excluding cancelled invoices.
+- Monthly Cohort Grouping: Identifies each customer's first purchase month and calculates monthly elapsed time indexes relative to sign-up.
+- Retention Rate Quantification: Builds a percentage-based matrix tracking customer retention behavior across 12-month transaction windows relative to initial sign-up size.
+-  Visual Heatmap: Generates an annotated matrix heatmap using native Matplotlib (imshow and dynamic text contrast) and prints tabular retention matrices directly to the Spyder IPython console.
+  
+3. Repository Contents-
+- cohort_analysis.py: Automated Python script containing data cleaning routines, cohort index math, retention matrix calculations, and Matplotlib visualization code.
+- online_retail_II.csv: Raw input CSV dataset containing transactional records (Invoice, StockCode, Description, Quantity, InvoiceDate, Price, Customer ID, Country).
+- retention_matrix.csv: Exported summary table displaying exact monthly customer retention percentages per cohort.cohort_heatmap.png: Rendered heatmap image displaying customer retention trends across time periods.
 
-Retention Matrix Calculation:Aggregates distinct active customers by cohort and index.Converts customer counts to percentage retention rates relative to Month 0 ($M+0 = 100\%$).Seaborn-Free Visualization:Generates a fully customized retention heatmap using standard matplotlib.pyplot.imshow().
-Overlays retention percentages directly onto grid cells with dynamic text contrast.
-📉 Sample Visual OutputThe script outputs a clean, annotated heat map in Spyder's Plots pane and prints the tabular matrix directly to the IPython Console:Plaintext
-
-  COHORT RETENTION PERCENTAGE TABLE (%)
-CohortMonth   M+0    M+1    M+2    M+3    M+4    M+5 ...
-2010-12     100.0   36.6   32.3   38.4   36.3   39.8 ...
-2011-01     100.0   22.1   26.6   23.0   32.1   28.8 ...
-2011-02     100.0   18.7   18.7   28.4   27.1   24.7 ...
-
-5. Tech StackLanguage: PythonEnvironment: Spyder IDELibraries: Pandas, NumPy, Matplotlib
+4. How to View
+- Download the repository files (cohort_analysis.py and online_retail_II.csv) to your local project folder.
+- Open cohort_analysis.py in your preferred Python IDE (Spyder, VS Code, or Jupyter).Execute the script via terminal or press F5 in Spyder to display the annotated retention heatmap and terminal matrix output.
 -----------------------------------------------------------------------------------------------------------------------------------------
 1. Project Overview TASK 24
 - An automated Python data audit and quality validation script designed to evaluate multi-sheet relational databases, execute custom business validation rules, quantify data hygiene anomalies, and export cleaned dataset samples for downstream analytics.
