@@ -1,3 +1,34 @@
+1. Cohort Retention Analysis
+- A complete, end-to-end Python implementation for performing Monthly Customer Cohort & Retention Analysis on e-commerce transaction data.
+- Built without Seaborn, utilizing native Pandas and Matplotlib for execution and visualization in Spyder IDE.
+
+2. Repository Structure
+Plaintext├── online_retail_II.csv        
+Dataset (Online Retail transactions)
+├── cohort_analysis.py          # Primary Python script (Data Cleaning + Retention Logic + Matplotlib Visuals)
+├── README.md                   # Project documentation & execution steps
+└── requirements.txt            # Python dependencies (pandas, matplotlib, numpy)
+
+3. Getting Started Prerequisites & Installation
+- Ensure you have Python 3.8+ installed along with the required libraries: Bashpip install pandas matplotlib numpy
+- Running in Spyder IDEClone or download this repository. Place online_retail_II.csv in your Spyder working directory. Open cohort_analysis.py in Spyder and press F5 (or click Run).
+  
+4. Script Execution WorkflowData Ingestion & Cleaning:
+Reads raw transactions from online_retail_II.csv.Filters out records with missing Customer ID, non-positive quantities/prices, and cancelled invoices (Invoice starting with 'C').Cohort Assignment:Determines each customer's initial sign-up month (CohortMonth).
+Computes monthly offsets relative to sign-up (CohortIndex: $M+0, M+1, M+2 ...).
+
+Retention Matrix Calculation:Aggregates distinct active customers by cohort and index.Converts customer counts to percentage retention rates relative to Month 0 ($M+0 = 100\%$).Seaborn-Free Visualization:Generates a fully customized retention heatmap using standard matplotlib.pyplot.imshow().
+Overlays retention percentages directly onto grid cells with dynamic text contrast.
+📉 Sample Visual OutputThe script outputs a clean, annotated heat map in Spyder's Plots pane and prints the tabular matrix directly to the IPython Console:Plaintext
+
+  COHORT RETENTION PERCENTAGE TABLE (%)
+CohortMonth   M+0    M+1    M+2    M+3    M+4    M+5 ...
+2010-12     100.0   36.6   32.3   38.4   36.3   39.8 ...
+2011-01     100.0   22.1   26.6   23.0   32.1   28.8 ...
+2011-02     100.0   18.7   18.7   28.4   27.1   24.7 ...
+
+5. Tech StackLanguage: PythonEnvironment: Spyder IDELibraries: Pandas, NumPy, Matplotlib
+-----------------------------------------------------------------------------------------------------------------------------------------
 1. Project Overview TASK 24
 - An automated Python data audit and quality validation script designed to evaluate multi-sheet relational databases, execute custom business validation rules, quantify data hygiene anomalies, and export cleaned dataset samples for downstream analytics.
   
