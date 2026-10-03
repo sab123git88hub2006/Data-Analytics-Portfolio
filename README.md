@@ -1,3 +1,23 @@
+1. Project Overview TASK 26
+- An interactive, single-page executive management dashboard built in Microsoft Power BI using the Sample - Superstore dataset. Designed for senior leadership, this report consolidates high-level revenue metrics, profitability analysis, product category distributions, and seasonal sales trends into a streamlined, clutter-free visualization canvas.
+
+2. Key Features
+- Executive Summary KPIs: Features high-visibility callout cards displaying core enterprise metrics including Total Sales (₹2.30M), Total Net Profit (₹286.40K), and Total Units Sold (37.87K).
+- Product Mix & Margin Breakdown: Incorporates a central donut chart analyzing category revenue share (Technology, Furniture, Office Supplies) alongside a horizontal bar chart tracking profitability across detailed sub-categories.
+- Temporal & Geographic Analytics: Utilizes a monthly time-series line chart to map sales momentum and seasonality (Jan–Dec), paired with a regional column chart comparing sales volume across Central, East, South, and West territories.
+- Dynamic Slicing & Interactive Filtering: Integrates single-click interactive tile slicers for Region and Category, enabling leadership to perform real-time cross-filtering across all visual elements without navigating off the main canvas.
+
+3. Repository Contents
+- Sample_Superstore_Executive_Dashboard.pbix: Interactive Microsoft Power BI Desktop file containing the data model, DAX measures, visual layouts, and dynamic slicers.
+- Executive_KPI_Dashboard_Report.pdf: Single-page exported PDF version of the final executive dashboard for quick viewing and distribution.
+- KPI_Definitions_and_Documentation.md: Detailed documentation outlining measure formulas, business logic definitions, and data visualization best practices applied in the report.
+- Sample - Superstore.xlsx: Raw underlying transactional dataset containing order records, customer segments, regional tags, and financial metrics.
+
+4. How to View
+- Download Sample_Superstore_Executive_Dashboard.pbix and Sample - Superstore.xlsx into your local directory.
+- Open Sample_Superstore_Executive_Dashboard.pbix using Microsoft Power BI Desktop.
+- Ensure the data source path links to Sample - Superstore.xlsx, then interact with the Region and Category slicers to explore dynamic cross-filtering across all visual cards and charts.
+------------------------------------------------------------------------------------------------------------------------------------
 Project Overview: Customer Cohort Retention Analysis
 - An automated Python data analysis and visualization script designed to evaluate e-commerce customer transaction history, perform monthly cohort retention grouping, quantify repeat purchasing loyalty over time.
 
