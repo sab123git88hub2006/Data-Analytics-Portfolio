@@ -1,3 +1,23 @@
+ Task 28
+1. Project Overview-
+- An end-to-end Customer Repeat Purchase & Retention Analysis built in Python using the Online Retail II dataset (online_retail_II.csv).
+-  Prepared for senior leadership and data analytics assessment, this project evaluates core customer loyalty metrics, Average Order Value (AOV) progression, and multi-tier revenue distribution to inform data-driven retention strategies.
+
+2. Key Features-
+- Retention & Loyalty Metrics: Computes enterprise-level customer retention indicators, revealing a 65.58% Repeat Purchase Rate (2,845 repeat customers out of 4,338 total unique buyers).
+- Order Progression & AOV Analysis: Evaluates spending growth across purchase sequences, demonstrating a 16.9% increase in Average Order Value (AOV) for repeat transactions (£497.74) compared to initial orders (£425.66).
+- Multi-Tier Customer Segmentation: Groups buyers into four distinct behavioral tiers (One-Time Buyers, Returning, Frequent, and Loyal) to highlight revenue concentration, showing that Loyal Customers (6+ orders) account for 66.27% (£5.9M+) of total sales.
+- Automated Data Processing Pipeline: Features clean Python scripts using pandas and numpy to automatically handle missing customer records, exclude cancelled transactions ('C' invoices), compute transaction totals, and dynamically rank chronological order sequences per buyer.
+
+3. Repository Contents-
+- customer_repeat_analysis.py: Main executable Python script containing the data cleaning pipeline, order sequence ranking logic, metric aggregations, and segment table generation.
+- Customer_Repeat_Purchase_Report.pdf: Executive single-page summary report outlining core findings, customer tier distributions, strategic recommendations, and interview task answers.
+
+4. How to View & Run
+- Download customer_repeat_analysis.py and online_retail_II.csv into your local project directory.
+- Open your terminal or Python environment (Jupyter Notebook / VS Code) and ensure pandas and numpy are installed (pip install pandas numpy).
+- Run the script:Bashpython customer_repeat_analysis.py
+-----------------------------------------------------------------------------------------------------------------
 1. Project Overview TASK 26
 - An interactive, single-page executive management dashboard built in Microsoft Power BI using the Sample - Superstore dataset. Designed for senior leadership, this report consolidates high-level revenue metrics, profitability analysis, product category distributions, and seasonal sales trends into a streamlined, clutter-free visualization canvas.
 
