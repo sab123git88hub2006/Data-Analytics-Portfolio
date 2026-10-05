@@ -16,7 +16,6 @@
 4. How to View & Run
 - Download customer_repeat_analysis.py and online_retail_II.csv into your local project directory.
 - Open your terminal or Python environment (Jupyter Notebook / VS Code) and ensure pandas and numpy are installed (pip install pandas numpy).
-- Run the script:Bashpython customer_repeat_analysis.py
 -----------------------------------------------------------------------------------------------------------------
 1. Project Overview TASK 26
 - An interactive, single-page executive management dashboard built in Microsoft Power BI using the Sample - Superstore dataset. Designed for senior leadership, this report consolidates high-level revenue metrics, profitability analysis, product category distributions, and seasonal sales trends into a streamlined, clutter-free visualization canvas.
