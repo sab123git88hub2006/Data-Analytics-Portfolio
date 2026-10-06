@@ -1,3 +1,18 @@
+1. Market Basket Analysis (Day 29 - Task)-
+- Project Overview- An end-to-end Product Basket Analysis built in Python using the Online Retail II dataset (Year 2009-2010.csv).
+- Prepared for senior leadership and data analytics assessment, this project evaluates product co-occurrence patterns, association-style purchasing habits, and multi-item basket behaviours to inform data-driven cross-selling and bundling strategies.
+2. Key Features-
+- Association & Co-Occurrence Metrics: Computes enterprise-level product pair frequency indicators across transaction baskets, revealing high-affinity pairs such as Strawberry Ceramic Trinket Box & Sweetheart Ceramic Trinket Box (purchased together 796 times).
+- Self-Pair Exclusion & Unique Item Logic: Uses strict inequality filtering (Description_1 < Description_2) and order-level deduplication to eliminate self-pairs and duplicate reversed pairs (e.g., A+B vs. B+A).
+- Multi-Item Basket Profiling: Groups customer purchases by unique transaction IDs (Invoice) to identify high-converting product combinations across various categories (decor, cake cases, home accessories).
+- Automated Data Processing Pipeline: Features clean Python scripts using pandas to automatically handle missing descriptions, exclude cancelled transactions ('C' invoices), remove non-positive quantities, and dynamically compute top co-purchased items.
+3. Repository Contents
+- product_basket_analysis.py: Main executable Python script containing the data cleaning pipeline, Invoice grouping logic, pandas self-join pair mining, and top product pair table generation.
+- Product_Basket_Analysis_Report.pdf: Executive single-page summary report outlining core findings, top product pair distributions, strategic recommendations, and interview task answers.
+4. How to View & Run-
+- Download Task 29.py and Year 2009-2010.csv into your local project directory.
+-  Open your terminal or Python environment (Jupyter Notebook / VS Code) and ensure pandas is installed.
+--------------------------------------------------------------------------------------------------------------------
  Task 28
 1. Project Overview-
 - An end-to-end Customer Repeat Purchase & Retention Analysis built in Python using the Online Retail II dataset (online_retail_II.csv).
