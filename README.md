@@ -1,3 +1,22 @@
+Regional Growth Analysis (Day 30)
+1. Project Overview
+- An end-to-end Regional Growth Analysis built in Microsoft Excel using the Superstore sales dataset. Prepared for senior leadership and data analytics assessment, this project evaluates period-over-period sales performance across Central, East, South, and West territories from 2014 to 2017 to analyze growth momentum, isolate high-performing markets, and highlight the impact of the small-base effect on percentage growth metrics.
+
+2. Key Features
+- Period-over-Period Growth Metrics: Computes enterprise-level year-over-year (YoY) growth percentage indicators across regional territories, identifying peak performers like the West region (+33.42% in 2017) and lagging markets like the Central region (-0.22% in 2017).
+- Data Cleaning & Anomaly Correction: Resolves Pivot Table grouping anomalies (date glitches such as <03-01-2014) and filters out blank or null entries to ensure pristine year-by-year baseline calculations.
+- Small-Base Effect Analysis: Evaluates absolute dollar volume vs. percentage growth rates to demonstrate how small starting baselines distort percentage metrics (e.g., South's +31.30% growth adding $29.3k vs. West's +33.42% growth adding $62.6k).
+- Visual Performance Tracking: Features interactive Excel PivotCharts (Clustered Column / Line with Markers) with custom formatting and data labels to effectively present regional sales trends to decision-makers.
+  
+3. Repository Contents-
+- Regional_Growth_Analysis.xlsx: Core Excel workbook containing the raw Superstore dataset, structured Pivot Table, YoY percentage change formulas, and formatted regional growth charts.
+- Regional_Growth_Analysis_Report.pdf: Executive single-page summary report outlining core performance findings, strategic business recommendations, and interview task answers.
+  
+ 4. How to View & Run-
+- Download Regional_Growth_Analysis.xlsx and the Superstore dataset into your local project directory.
+-  Open the file using Microsoft Excel (or any compatible spreadsheet application like Google Sheets).
+-  Navigate to the PivotTable_Growth sheet to interact with the regional slicers, review the calculated YoY percentage fields, and explore the dynamic regional charts. 
+--------------------------------------------------------------------------------------------------
 1. Market Basket Analysis (Day 29 - Task)-
 - Project Overview- An end-to-end Product Basket Analysis built in Python using the Online Retail II dataset (Year 2009-2010.csv).
 - Prepared for senior leadership and data analytics assessment, this project evaluates product co-occurrence patterns, association-style purchasing habits, and multi-item basket behaviours to inform data-driven cross-selling and bundling strategies.
