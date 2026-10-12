@@ -1,0 +1,33 @@
+- OTT Streaming Content Trend Analysis (Netflix)
+
+1. Project Overview
+This project explores streaming platform content catalogs to uncover structural patterns in genre popularity, maturity ratings, release timing trends, and content format mix over time. The workflow 
+mirrors the operations of a real-world content strategy and growth acquisition team, transitioning from raw data dumps into actionable business recommendations.
+---
+2. Tech Stack & Tools
+- Python: Pandas, NumPy, Matplotlib *(Strictly no Seaborn/Plotly)
+-  SQL: MySQL (for core table creation and aggregations)
+-  Excel: Microsoft Excel (Pivot Tables, PivotCharts, and Text Parsing)
+---
+3. Repository Deliverables
+
+1. EDA & Visualizations:
+   - Python script processing the 7-column dataset (`show_id`, `title`, `release_year`, `rating`, `duration`, `listed_in`, `type`).
+   -  Generates 6  visualizations covering content mix, top genres, release trends, maturity distributions, and runtimes.
+
+2. SQL Aggregations:
+   - Relational schema creation and core SQL queries analyzing annual content growth and genre distributions.
+
+3. Excel Workbook (`/excel/ott_analysis_pivot.xlsx`):
+   - Configured with custom text-parsing formulas and interactive Pivot Tables/Charts verifying the content trends.
+
+4. Content Strategy Memorandum:
+   - Executive briefing providing 3 actionable greenlight recommendations for content acquisition leadership.
+---
+
+4. Key Insights & Recommendations
+- Shift to Multi-Season Content: Reallocate 20% of indie film acquisition budgets into multi-season episodic series to improve user lifetime value (LTV).
+- Regional Diversification: Balance Western-heavy catalogs by accelerating co-productions in high-growth international corridors.
+- Runtime Standardization: Mandate an optimal 85–105 minute window for original feature-length commissions to maximize completion rates.
+---
+*Project completed as part of the data analytics curriculum.*
