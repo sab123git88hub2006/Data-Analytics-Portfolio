@@ -21,3 +21,42 @@ This project processes publicly available COVID-19 time-series data from Our Wor
 ├── cleaned_covid_data.csv    # Cleaned dataset ready for Power BI
 ├── COVID19_Dashboard.pbix    # Power BI report file
 └── README.md                 # Project documentation
+
+5. Data Cleaning Pipeline-
+- The raw dataset was transformed using Python (data_cleaning.py) following these steps:
+	- Handling Missing Values: Filled null daily counts (new_cases, new_deaths) with 0.
+	- Filtering Aggregates: Excluded aggregate regional records (e.g., World, Europe, High income) to ensure clean country-to-country comparisons.
+	- Metric Calculation: Calculated the Case Fatality Rate (CFR) directly:
+  - "CFR (%)"=("Total Deaths" /"Total Cases" )×100
+	Export: Outputted the refined dataset as cleaned_covid_data.csv.
+6. Dashboard Key Features-
+	- Dropdown Filters: Filter by country (location) and date range without vertical scrolling.
+	- KPI Overview Cards: Total Cases, Total Deaths, and Average Case Fatality Rate at a glance.
+	- Top 10 Impacted Countries: Horizontal bar chart filtered using Top N rules to display population-normalized metrics (total_cases_per_million).
+	- Wave Progression: Line chart plotting smoothed daily counts over time to show pandemic wave trajectories.
+7. Key Insights-
+	- Population Normalization Matters: Raw case counts favor larger nations; evaluating cases per million reveals the true relative impact density across countries.
+	- Smooth Trends vs. Daily Noise: 7-day smoothing eliminates artificial weekend reporting drops to show true pandemic progression.
+	- Regional Mortality Variations: Case Fatality Rates vary significantly due to differences in testing coverage, age demographics, and local healthcare capacity.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
