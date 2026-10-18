@@ -1,0 +1,23 @@
+- COVID-19 Global Impact Dashboard
+- A data analytics project built to explore global COVID-19 trends, regional wave trajectories, and population-normalized impacts using Python and Power BI.
+1. Assumptions:
+- Missing Daily Counts: Days with missing new_cases or new_deaths were filled with 0, assuming no new cases or deaths were reported on those specific days.
+- Separation of Aggregates: Global aggregates (like 'World') were kept in a separate table/view so they don't distort individual country comparisons when plotting
+  totals.
+- Case Fatality Rate (CFR): Calculated as ("Total Deaths" /"Total Cases" )×100. Undefined values (where total cases equal zero) were handled by setting CFR to zero.
+
+2. Project Overview
+This project processes publicly available COVID-19 time-series data from Our World in Data (OWID). It focuses on cleaning real-world dataset anomalies, removing reporting noise, deriving key epidemiological metrics (Case Fatality Rate), and visualizing insights in an interactive Power BI dashboard.
+
+
+3. Tools & Technologies Used
+-Python (Pandas):Data cleaning, missing value imputation, and feature engineering.
+-Microsoft Power BI:Interactive visualization, slicers, and dashboard layouts.
+-Excel / CSV: Raw data storage and export format.
+
+4. Repository Structure
+├── owid-covid-data.xlsx      # Raw dataset from Our World in Data
+├── data_cleaning.py          # Python script for dataset transformation
+├── cleaned_covid_data.csv    # Cleaned dataset ready for Power BI
+├── COVID19_Dashboard.pbix    # Power BI report file
+└── README.md                 # Project documentation
